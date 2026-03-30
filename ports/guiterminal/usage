@@ -1,0 +1,27 @@
+The package exports the CMake target:
+
+    find_package(GuiTerminal CONFIG REQUIRED)
+    target_link_libraries(your_target PRIVATE GuiTerminal::GuiTerminal)
+
+The library links Direct2D and DirectWrite as part of the exported target.
+
+Triplets control both library linkage and CRT linkage.
+
+Examples:
+
+    x86-windows             -> DLL + dynamic CRT
+    x64-windows             -> DLL + dynamic CRT
+    x86-windows-static      -> static library + static CRT
+    x64-windows-static      -> static library + static CRT
+    x86-windows-static-md   -> static library + dynamic CRT
+    x64-windows-static-md   -> static library + dynamic CRT
+
+If you need DLL + static CRT, use a custom triplet with:
+
+    set(VCPKG_LIBRARY_LINKAGE dynamic)
+    set(VCPKG_CRT_LINKAGE static)
+
+Static-library triplets install both the C++ and C headers.
+Shared-library triplets install the C wrapper header only:
+
+    #include <GuiTerminalC.h>
