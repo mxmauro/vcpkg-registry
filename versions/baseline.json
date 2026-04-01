@@ -1,8 +1,8 @@
 {
   "default": {
     "guiterminal": {
-      "baseline": "0.4.0",
-      "port-version": 0
+      "port-version": 0,
+      "baseline": "0.4.1"
     }
   }
 }
