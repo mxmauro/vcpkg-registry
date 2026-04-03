@@ -2,7 +2,7 @@
   "default": {
     "guiterminal": {
       "port-version": 0,
-      "baseline": "0.4.1"
+      "baseline": "0.4.2"
     }
   }
 }
