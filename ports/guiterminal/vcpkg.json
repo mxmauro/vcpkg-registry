@@ -1,9 +1,10 @@
 {
-  "homepage": "https://github.com/mxmauro/GuiTerminal",
   "license": "MIT",
-  "version-string": "0.4.2",
-  "supports": "windows & !uwp",
+  "version-string": "0.5.0",
+  "homepage": "https://github.com/mxmauro/GuiTerminal",
+  "name": "guiterminal",
   "description": "Native C++ terminal control library for Win32 desktop applications rendered with Direct2D and DirectWrite.",
+  "supports": "windows & !uwp",
   "dependencies": [
     {
       "host": true,
@@ -13,6 +14,5 @@
       "host": true,
       "name": "vcpkg-cmake-config"
     }
-  ],
-  "name": "guiterminal"
+  ]
 }
