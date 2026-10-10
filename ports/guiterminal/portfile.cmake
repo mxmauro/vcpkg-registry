@@ -7,8 +7,8 @@ endif()
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO mxmauro/GuiTerminal
-    REF v0.9.0
-    SHA512 55d1ad3e856291b8c4fd52b71e14709af8b9d465c8563e8a3e1ae819d497f571f7d649c69316029638c175bb22b91e3dffa0ea74580bd828c1bb491abbe8fee6
+    REF v0.10.0
+    SHA512 ac652ab11ec0b218e31086a1cabe5674bb89b5ad2108aa846e6cbf65e8eb11bdb93b93cc339235430b8a9c747b56c6a53e14d02e00d88e3530a694a411e02beb
     HEAD_REF master
 )
 
