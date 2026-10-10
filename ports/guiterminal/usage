@@ -25,3 +25,7 @@ Static-library triplets install both the C++ and C headers.
 Shared-library triplets install the C wrapper header only:
 
     #include <GuiTerminalC.h>
+
+AI-oriented integration documentation is installed at:
+
+    share/guiterminal/docs/ai-index.md
